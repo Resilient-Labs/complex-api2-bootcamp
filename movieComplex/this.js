@@ -18,36 +18,43 @@ function findMovie() {
       });
 
       console.log(movieArr);
-      for (let i = 0; i < movieArr.length; i++) {
-        let p = document.createElement("li");
-        let text = document.createTextNode(movieArr[i]);
-        p.appendChild(text);
-        // console.log(p)
-        let dole = document.querySelector(".movieResults")
-        dole.appendChild(p);
-        // console.log(dole)
-        
+      let mov = "";
+      
+      let p = document.createElement("p");
+      p.innerHTML = ''
+      for (let movi of movieArr) {
+        mov += movi + "    ";
 
-        movieArr.forEach((each) => {
-          let url2 = `http://api.countrylayer.com/v2/name/${each}?access_key=46d7083e9b2c80385c24a26b527ab88c& FullText=true`;
-          fetch(url2)
-            .then((res) => res.json())
-            .then((country) => {
-              // console.log(country[0].capital);
-              console.log(country)
-              let countryCapital = country[0].capital
-              
-              let p2 = document.createElement("li")
-              let text2 = document.createTextNode(countryCapital)
-              p2.appendChild(text2)
-              console.log(p2)
-              let dole2 = document.querySelector(".countryCap")
-              dole2.appendChild(p2)
-              console.log(dole2)
-              // document.querySelector('#countryCap').innerText = country[0].boxOffice
-            });
-        });
+        let url2 = `http://universities.hipolabs.com/search?country=${movi}`;
+        fetch(url2)
+          .then((res) => res.json())
+          .then((data) => {
+            console.log(data);
+            // let schoolText = ''
+            let schoolName = `${data[0].name}   |`
+            console.log(schoolName);
+            
+            let newText = document.createTextNode(schoolName);
+            
+            p.appendChild(newText);
+            console.log(p);
+            // schoolText += data[0].name + '   |    '
+            //
+            // console.log(schoolText)
+          });
       }
+      document.querySelector(".movieResults").innerText = mov;
+      document.querySelector(".countryCap").appendChild(p)
+      // for (let i = 0; i < movieArr.length; i++) {
+      //   let p = document.createElement("li");
+      //   let text = document.createTextNode(movieArr[i]);
+      //   p.appendChild(text);
+      //   // console.log(p)
+      //   let dole = document.querySelector(".movieResults")
+      //   dole.appendChild(p);
+      //   // console.log(dole)
+      // }
+
       // document.querySelector("#movieResults").innerText = movieArr;
     })
 
@@ -55,3 +62,22 @@ function findMovie() {
       console.log(`Error ${err}`);
     });
 }
+// let thisText = ''
+// for(let x in data){
+//   thisText += data[0].name + ' \ '
+// }
+// console.log(thisText)
+// console.log(country[0].capital);
+// console.log(country)
+// console.log(country[0].name)
+// let countrySchoolName = country[1].name
+// console.log(country)
+// console.log(country[0].name)
+// let p2 = document.createElement("li")//create li to put in data
+// p2.textContent = countrySchoolName
+// // p2.appendChild(text2)
+// // console.log(p2)
+// let dole2 = document.querySelector(".countryCap")
+// dole2.appendChild(p2)
+// console.log(dole2)
+// document.querySelector('#countryCap').innerText = country[0].boxOffice
