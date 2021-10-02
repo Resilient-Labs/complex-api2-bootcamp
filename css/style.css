@@ -1,0 +1,23 @@
+
+*{
+    box-sizing: border-box;
+  }
+
+  h3{
+    margin: 0;
+  }
+
+  body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2ec57e;
+    color: white;
+  }
+
+  img{
+    max-width: 70%;
+    max-height: 500px;
+  }
