@@ -21,7 +21,7 @@ function getCharacter() {
                 Power: ${data.results[0].powerstats.power}
                 Strength: ${data.results[0].powerstats.strength}
             `
-            const movieUrl = `http://www.omdbapi.com/?t=${data.results[0].name}&apikey=c7c9779d`
+            const movieUrl = `http://www.omdbapi.com/?t=${data.results[0].name}&apikey=KEY`
 
             fetch(movieUrl)
                 .then(res => res.json())
