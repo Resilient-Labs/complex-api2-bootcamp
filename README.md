@@ -4,7 +4,7 @@
 
 # Description: 
 
-Allows users to enter the name of a superhero or villian and returns an image, power stats, movie character has appeared on with a short description.
+Allows users to enter the name of a superhero or villian and returns an image, power stats, movie the character has appeared on with a short description.
 
 
 
