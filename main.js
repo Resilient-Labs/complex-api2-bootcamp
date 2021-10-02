@@ -6,7 +6,7 @@ function giphy(){
     .then(res => res.json()) // parse response as JSON
     .then(data => {
         document.querySelector('h2').innerText = data.name
-     const giphyurl = `https://api.giphy.com/v1/gifs/search?api_key=whJyoblWv7MSYLEGLX4EAYZnwZYtuOU6&q=${data.name}`
+     const giphyurl = `https://api.giphy.com/v1/gifs/search?api_key=[]=${data.name}`
       fetch(giphyurl)
     .then(res => res.json()) // parse response as JSON
     .then(data => {
@@ -20,4 +20,4 @@ function giphy(){
     .catch(err => {
         console.log(`error ${err}`)
     });
-}
+} // this was worked on as a group in house gardner 
