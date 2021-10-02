@@ -1,0 +1,83 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+body {
+  font-size: 12px;
+  line-height: 1.4;
+  height: 100vh;
+  display: flex;
+ flex-direction: column;
+  justify-content: center;
+  align-items: center;
+background-image: url(https://media.istockphoto.com/photos/background-black-total-grunge-abstract-cement-concrete-paper-texture-picture-id1251205256?b=1&k=20&m=1251205256&s=170667a&w=0&h=o4N-O5lZywE2lBuauTZX6NiutPCNbKAnuKaTSKWM0Lo=);
+color: white;
+font-family: 'Limelight', cursive;
+
+}
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  font-family: Helvetica, Arial, sans-serif;
+  background-image: url(https://media.istockphoto.com/photos/35mm-film-rebate-from-a-camera-picture-id184989881?b=1&k=20&m=184989881&s=170667a&w=0&h=hE0ONh9q48SiOKiCeS9AdcNy4qSekK6KZ3Ahc0hpgPs=);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 50%;
+  height:70vh ;
+  color: black;
+  font-family: 'Limelight', cursive;
+}
+section p{
+  width: 50%;
+  font-size: 1rem;
+  font-family: 'Limelight', cursive;
+}
+button{
+  margin: 10px 0 0 0;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
