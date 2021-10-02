@@ -1,0 +1,76 @@
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: black;
+    background-image: url(movie.jpeg);
+    
+}
+section{
+    border: 5px solid hidden;
+    border-style: double;
+    background-color: black;
+    width: 60%;
+    height: 300px;
+   position: relative;
+   left: 300px;
+   top: 150px;
+   
+   
+    
+   
+}
+
+
+
+h1{
+    color: white;
+    position: relative;
+    left: 500px;
+    top: 200px;
+    font-weight: 700;
+
+    
+}
+
+h2{
+   
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    float: left;
+    margin: 0px, 0px;
+}
+
+h3{
+
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    float: left;
+    margin: 0px, 0px;
+    display: inline;
+}
+
+button{
+   position: relative;
+   left: 850px;
+   top: 125px;
+   background-color: lightblue;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+
+input{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    position: relative;
+    left: 850px;
+    top: 125px;
+
+}
