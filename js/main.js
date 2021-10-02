@@ -8,7 +8,7 @@ function getMovie(){
     let title = document.querySelector('input').value
     let url = `http://www.omdbapi.com/?apikey=KEY&t=${title}`
     
-    fetch(url)
+    fetch(url)``
     .then(res => res.json())
     .then(data =>{
         if(data.Plot === undefined){
