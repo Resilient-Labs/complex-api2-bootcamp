@@ -6,7 +6,7 @@ document.querySelector('button').addEventListener('click',getMovie)
 function getMovie(){
 
     let title = document.querySelector('input').value
-    let url = `http://www.omdbapi.com/?apikey=eb729f0b&t=${title}`
+    let url = `http://www.omdbapi.com/?apikey=KEY&t=${title}`
     
     fetch(url)
     .then(res => res.json())
