@@ -16,7 +16,7 @@ function rickRickRick() {
 
             document.querySelector('h2').innerText = dataFromMorty.results[randomNum].name
 
-            const giphy = `https://api.giphy.com/v1/gifs/search?api_key=edBSJcPTXw0vWiZjWV2EnCPgxue8xT4O&q=${dataFromMorty.results[randomNum].name}`
+            const giphy = `https://api.giphy.com/v1/gifs/search?api_key=&q=${dataFromMorty.results[randomNum].name}`
 
             fetch(giphy)
                 .then(res => res.json()) // parse response as JSON 
