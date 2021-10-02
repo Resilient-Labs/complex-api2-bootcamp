@@ -1,0 +1,73 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("../img/WallpaperDog-17164066.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: 'Luckiest Guy', Arial, Helvetica, sans-serif;
+  color: rgb(198 220 81);
+  background-color: black;
+}
+
+div{
+  display: block;
+  margin: 0 auto;
+  width: 35em;
+  background-color: black;
+}
+
+h1{
+  margin-top: 5em;
+  color: rgb(198 220 81);
+  background-color: black;
+  width:auto;
+}
+
+
+#charactername{
+  background-color: white;
+}
+
+
+img{
+  display: block;
+  margin: 0 auto;
+  width:10em;
+}
+
+
+
+#imgHolder{
+  text-align: center;
+  width: 10em;
+  height: 10em;
+} */
+
+input{
+ width: 10em;
+}
+
+button{
+  background-color: rgb(198 220 81);
+  border:none;
+  width: 10em;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
