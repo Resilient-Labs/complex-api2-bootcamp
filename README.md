@@ -1,22 +1,32 @@
-# 📊 Project: Complex API 2
+# Did you ever wonder if there were other cities with the same name as the city you live in?
+This project is an website with an API that takes information from another API. The first API is geo-location based and returns a list of cities with the same name and some city information such as location. The second API is food based. It will return local restaurants based on latitude and longitude coordinates which the first API provides.
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+**Link to project:** 
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+
+**Tech used:** HTML, CSS, Javascript
+
+To make this API based website we are going to be using Javascript and fetch syntax to work with the API interfaces.
+
+what the first API does:
+enter a city name
+get a list of cities with that same name and other relevant information.
+
+what the second API does:
+enter latitude and longitude of one of the cities from the first API
+API will return a list of restaurants within a radius of the chosen city
+
+
+## Optimizations
+
+
+## Lessons Learned:
+
+A great takeaway for this project would be using for loops to deal with the parsed JSON data. using a for loop you can grab specific values, assign them to variables, and use them as parameters in other API interfaces. I also learned how to authenticate with fetch syntax using an API Keys and secret password to retrieve a token.
+
+## Examples:
+
+
