@@ -1,0 +1,35 @@
+body{
+    color: #ffffff;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    background: url('/Users/resilientcoders/Desktop/resilient_coders/rcWork/week_eight/apiComplex/randomPersona/images/background.jpg');
+    background-color: #cccccc;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+}
+
+main{
+    margin-top: 25vh;
+}
+
+section{
+    width: 100%;
+}
+
+button{
+    background-color:#ffffff;
+    border: none;
+    border-radius: 4px;
+}
+
+#listname > p{
+    width: 100%;
+    font-weight: 700;
+    font-size: 1.25em;
+}
