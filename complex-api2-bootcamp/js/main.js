@@ -1,5 +1,6 @@
+//collaborated  with team Hayden to successfully completed team project 
 document.querySelector("button").addEventListener("click", get_data);
-let API_key = "89591760-221d-11ec-9899-03447e036495";
+let API_key = "()";
 let abbiviations = {};
 function get_data() {
   let enterV = document.querySelector("#enterV").value;
@@ -47,4 +48,4 @@ getAbbriv();https://github.com/Rob--W/cors-anywhere
 setTimeout(() => {
   console.log(abbiviations);
 }, 2000);
-
+// collaborated  with team Hayden to successfully completed team project 
