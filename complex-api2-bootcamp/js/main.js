@@ -5,7 +5,7 @@ let abbiviations = {};
 function get_data() {
   let enterV = document.querySelector("#enterV").value;
 
-  var url = `https://app.zipcodebase.com/api/v1/search?apikey=${API_key}&codes=${enterV}&country=US`;
+  var url = `https://app.zipcodebase.com/api/v1/search?apikey=${API_key}()
   fetch(url)
     .then((response) => response.json())
     .then((Zdata) => {
