@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("img/meds.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.enterV {
+  height: 40px;
+}
+input, button {
+  margin-top: 25px;
+  width: 40%;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 25px;
+  color: rgb(30, 84, 59);
+  opacity: 0.7;
+  text-align: center;
+}
+
+input {
+  margin-left: 90px;
+}
+
+h3, p {
+  color: white;
+}
