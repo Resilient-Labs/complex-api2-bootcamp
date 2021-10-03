@@ -1,22 +1,21 @@
-# 📊 Project: Complex API 2
+# 🦠 COVID-19 Cases Complex API 2
 
 ### Goal: Use data returned from one api to make a request to another api and display the data returned
 
-### How to submit your code for review:
+### The user is able to find covid cases  using zip code. In the dom the latest covid cases reported will return to user.
+### Link to Project : https://emscovidreports.netlify.app/
+![Screen Shot 2021-10-02 at 8 45 39 PM](https://user-images.githubusercontent.com/89624071/135736048-e20b1459-f5a2-491e-a2c3-169eac146b8f.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+### How It's Made: 
+  <h3>Tech used: 
+HHTML, CSS, JavaScript API</h3>
+  
+### Lessons Learned:
+<h3>API application connects to the Internet and sends data to a server.</h3>
 
-Example:
-```
+
 I completed the challenge: 5
+
 I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+Feedback is always appreciated !!!
