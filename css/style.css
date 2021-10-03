@@ -10,12 +10,30 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
-img{
-  width: 50%;
-  display: block;
-  margin: 0 auto;
+body{
+  background-image: url('images/pokemon.jpg');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
+h1{
+  font-size: 3em;
+  background-color: rgb(167, 198, 202);
+  text-align: center
+}
+div{
+  text-align: center;
 
+}
+img{background-color: white;
+}
+button{
+  padding:0.3em 1.2em;
+  margin:0 0.3em 0.3em 0;
+  border-radius:2em;
+  font-family:'Roboto',sans-serif;
+  color:#FFFFFF;
+  background-color:#4eb5f1;
+  }
 
 /******************************************
 /* ADDITIONAL STYLES
