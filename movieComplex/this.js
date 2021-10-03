@@ -5,7 +5,7 @@ document.querySelector("button").addEventListener("click", findMovie);
 
 function findMovie() {
   let movIn = document.querySelector(".movieInput").value;
-  let url = `http://www.omdbapi.com/?t=${movIn}&apikey=f1b52a0c`;
+  let url = `http://www.omdbapi.com/?t=${movIn}&apikey=use_your_own_api`;
 
   //issue with fetch call, it keeps giving me a movie titled null when that is not the case.
   fetch(url)
@@ -19,9 +19,7 @@ function findMovie() {
 
       console.log(movieArr);
       let mov = "";
-      
       let p = document.createElement("p");
-      p.innerHTML = ''
       for (let movi of movieArr) {
         mov += movi + "    ";
 
@@ -35,7 +33,6 @@ function findMovie() {
             console.log(schoolName);
             
             let newText = document.createTextNode(schoolName);
-            
             p.appendChild(newText);
             console.log(p);
             // schoolText += data[0].name + '   |    '
@@ -43,19 +40,15 @@ function findMovie() {
             // console.log(schoolText)
           });
       }
+      
       document.querySelector(".movieResults").innerText = mov;
+      document.querySelector(".countryCap").innerHTML = '' 
       document.querySelector(".countryCap").appendChild(p)
-      // for (let i = 0; i < movieArr.length; i++) {
-      //   let p = document.createElement("li");
-      //   let text = document.createTextNode(movieArr[i]);
-      //   p.appendChild(text);
-      //   // console.log(p)
-      //   let dole = document.querySelector(".movieResults")
-      //   dole.appendChild(p);
-      //   // console.log(dole)
-      // }
+      document.querySelector("img").src = movie.Poster;
+      document.querySelector(".director").innerText = movie.Director;
+      document.querySelector(".genre").innerText = movie.Genre;
+  
 
-      // document.querySelector("#movieResults").innerText = movieArr;
     })
 
     .catch((err) => {
