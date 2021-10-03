@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  color: white;
+  background-image: url(curiosity.jpg);
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1,
+p {
+  text-align: center;
+}
+.instr {
+  position: relative;
+  top: 35px;
+}
+input,
+button {
+  position: relative;
+  top: 45px;
+  left: 150px;
+}
+.title,
+.content,
+.source {
+  position: relative;
+  top: 79px;
+}
