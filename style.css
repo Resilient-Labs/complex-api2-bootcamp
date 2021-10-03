@@ -1,0 +1,39 @@
+h1, p, button, #first, #last,#generatename, .output, #img, p{
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	text-align: center; 
+
+}
+
+
+#img, img{
+	margin: left auto; 
+	margin: right auto; 
+	text-align: center; 
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+  
+  }
+  
+img{max-width: 100%}
+img{height:60vh;}
+
+#gen{
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	margin-bottom: 2%; 
+}
+
+
+#listname{
+	margin-top: 2%; 
+	margin-bottom: 2%; 
+}
+
+body{
+	background: #603F83FF; 
+	color:#C7D3D4FF; 
+}
