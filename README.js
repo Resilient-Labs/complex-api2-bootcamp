@@ -3,15 +3,15 @@ This is an anime quote app that will generate an image and a quote belonging to 
 Link to Project: [https://juliedodev-simpleapi2.netlify.app]
 
 
-<img src="simpleapi2.png">
+<img src="complexapi2.png">
 
 How It's Made:
 
 Tech used: 
 <ul>
-<li>HTML<li>
+<li>HTML</li>
 <li>CSS</li>
-<li>JavaScript<li>
+<li>JavaScript</li>
 </ul>
 
 Optimizations:
