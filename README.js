@@ -3,7 +3,7 @@ This is an anime quote app that will generate an image and a quote belonging to 
 Link to Project: [https://juliedodev-simpleapi2.netlify.app]
 
 
-<img src="complexapi2.png">
+<img src="https://github.com/juliedodev/complex-api2-bootcamp/blob/answer/complexapi2.png">
 
 How It's Made:
 
