@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    text-align: center;
+    background-image: url(./rickandmorty.jpeg);
+    color: white;
+    height: 200px;
+}
