@@ -1,0 +1,39 @@
+body{
+    background-color:rgb(106, 155, 223);  
+    color: #abe9ac; 	
+
+
+}
+
+button{
+background-color: rgb(38, 84, 83);
+border: #abe9ac; 
+border-radius: 13px;
+}
+#sec, h2, img {
+    text-align: center; 
+    justify-content: center;
+    align-items: center; 
+   
+}
+#pic{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%; 
+    margin-right: 10%; 
+    margin-bottom: 10%; 
+  
+  
+}
+  
+img{
+    margin: left auto; 
+    margin: right auto; 
+    text-align: center; 
+  
+}
+  
+img{max-width: 100%}
+img{height:60vh;}
