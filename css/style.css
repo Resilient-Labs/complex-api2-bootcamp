@@ -1,0 +1,22 @@
+section{
+  text-align: center;
+}
+
+li{
+  list-style: none;
+  line-height: 200%;
+}
+
+h2{
+  font-size: 80px;
+  margin: 0;
+}
+
+h3{
+  font-size: 40px;
+  margin: 0;
+}
+
+body{
+  margin: 0;
+}
