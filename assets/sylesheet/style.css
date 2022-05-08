@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    text-align: center;
+    background: url('../images/repeat.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Clearfix Hack */
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+/* header styling */
+
+header {
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.nameInput {
+    height: 50px;
+    width: 35%;
+}
+
+.submitBtn {
+    background-color: #f8f3e7;
+    padding: 1%;
+}
+
+/* main styling */
+
+main {
+    display: flex;
+    justify-content: space-around;
+    margin: 1%;
+    font-size: 1.75rem;
+}
+
+img {
+    border: 1px solid black;
+}
+
