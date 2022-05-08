@@ -1,5 +1,7 @@
 section{
   text-align: center;
+  width: 50%;
+  background: gray;
 }
 
 li{
@@ -19,4 +21,9 @@ h3{
 
 body{
   margin: 0;
+  display: flex;
+  justify-content: center;
+  background: url("../beer.jpeg");
+  background-size: cover;
 }
+
