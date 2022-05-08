@@ -1,22 +1,13 @@
-# 📊 Project: Complex API 2
+# Cat Facts
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+### Goal
+Show cat facts and search wikipedia for what a cat is for those who might not be aware.
 
-### How to submit your code for review:
+![Screen Shot 2022-05-07 at 11 42 44 PM](https://user-images.githubusercontent.com/88361309/167280802-1a76cb9b-c7a8-4dfb-bf21-b3c0ae90d4fc.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+### How It's Made
+I used HTML and CSS+Flexbox to style, structure and position.
+
+### Functionality
+For functionality I used Javascript to retrieve cat facts from a random cat facts API generator. I then took those cat facts and used it's data to search wikipedia for what a cat is.

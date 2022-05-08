@@ -1,0 +1,44 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+  margin-right: 300px;
+  margin-left: 300px;
+  background-image: url("cat.jpeg");
+  background-repeat: repeat;
+  background-size: fill;
+}
+
+h1 {
+  background: gray;
+  color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+button {
+  width: 30%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: lightgray;
+  border-radius: 7px;
+}
+
+section {
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+}
