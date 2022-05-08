@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    color: orange;
+}
+h3{
+    text-align: center;
+    font-size: 18px;
+    color: coral;
+}
+input{
+    margin-left: 400px;
+    width: 23%;
+    height: 30px;
+}
+button{
+    height: 33px;
+}
+.locationhere{
+    font-size: 15px;
+    text-align: center;
+    color: gold;
+    margin-top: 40px;
+}
+.holidays{
+    font-size: 15px;
+}
+body{
+    background-image: url(./images/scratch.gif);
+}
