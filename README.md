@@ -1,22 +1,21 @@
-# 📊 Project: Complex API 2
+# Dogs & Cats Image Generator 
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+Bitter rivals? Perhaps. But, wow do they look cute together! This app requires the user type in their desired number of cat/dog pics they went to return. Cats and dogs are equal here, one input returns the same amount of pictures for both cats and dogs!
 
-### How to submit your code for review:
+**Link to project:** https://cydvilla.github.io/complex-api2/
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![alt](pets.gif)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+
+**Tech used:** HTML, CSS, JavaScript
+
+Utilziing JavaScript, this project makes displays image data from the dog & cat APIs. The user's input determines the amount of images that will be returned from both APIs.
+<!-- ## Optimizations
+*(optional)*
+
+You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews! -->
+
+## Lessons Learned:
+
+I had tough time working with the dogAPI because it did not contain anywhere near as much data as the catAPI. 
