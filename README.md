@@ -1,22 +1,8 @@
 # 📊 Project: Complex API 2
+![2022-05-12 (2)](https://user-images.githubusercontent.com/102920855/168080929-f8587195-57c0-4b94-98a2-5acb945b7aec.png)
+![2022-05-12 (3)](https://user-images.githubusercontent.com/102920855/168080942-3d4782cc-78c5-4d44-aefc-1c6fac7041d5.png)
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
-
-### How to submit your code for review:
-
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+# Description:
+Allows the user to click on the button to get a random 'Breaking Bad' character and photo, along with the actor's name and headshot. 
+# Tech Used:
+HTML, CSS, JavaScript, API, JSON
