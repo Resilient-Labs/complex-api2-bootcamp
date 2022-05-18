@@ -6,8 +6,7 @@ This is another project using two APIs to display data in the DOM. I love Animal
 
 ![Screen Shot 2022-05-18 at 3 18 30 PM](https://user-images.githubusercontent.com/102037717/169139445-89fbf99e-990a-411c-846b-f15ffa738b1e.png)
 
-![Screen Shot 2022-05-18 at 3 19 04 PM](https://user-images.githubusercontent.com/102037717/169139453-6aa2422e-91d1-46e2-9f05-03356c4f5be5.png)
-
+![Screen Shot 2022-05-18 at 3 24 02 PM](https://user-images.githubusercontent.com/102037717/169140122-dde18e11-e855-4827-b327-565468c2e0b2.png)
 
 ## How It's Made:
 
