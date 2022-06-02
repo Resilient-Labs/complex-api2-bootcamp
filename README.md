@@ -1,11 +1,21 @@
-# 📊 Project: Complex API 
+# National Park Service Complex API 
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+A National Park site. This site includes the ability for a user search for a state and a national park, within that state, with some futher details will appear. The current weather in that location is also displayed! This site uses data returned from one api to make a request to another api and display the data returned.
 
-![National Park Service](https://www.nps.gov/common/commonspot/templates/images/logos/nps_social_image_02.jpg)
+**Try it out here:** https://nationalparksearch.netlify.app/ (disclaimer: weather API may not work via netlify. Feel free to download the code.)
 
-I built out a National Parks site that used the NPS api to and the other to find the weather of that specific location gathered from the NPS API (as mentioned in Goals). 
+![National Park API](https://i.imgur.com/ELn47VK.png)
 
-This project involved using APIS and learning how to set them up so that data returned from one API can make a request to another api and display that data.
+## How It's Made:
 
-Check out the site here https://nationalparksearch.netlify.app/ ! 
+**Tech used:** HTML5, CSS, JavaScript, API
+
+This project involved using APIS and learning how to set them up so that data returned from one API can make a request to another api and display that data. The Covid-19 app takes the country USA and uses the location to display the current status of some covid-19 statistics.
+
+## Optimizations
+
+Potentially finding improved API's - this one was more difficult to find for vaccine statistics. 
+
+## Reflections:
+
+This was cool to build out - the API's were definitely harder to work with, but I enjoyed displaying real-world statistics. The CSS is something I'm hoping to update in the future.
