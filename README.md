@@ -10,12 +10,10 @@ A National Park site. This site includes the ability for a user search for a sta
 
 **Tech used:** HTML5, CSS, JavaScript, API
 
-This project involved using APIS and learning how to set them up so that data returned from one API can make a request to another api and display that data. The Covid-19 app takes the country USA and uses the location to display the current status of some covid-19 statistics.
-
 ## Optimizations
 
-Potentially finding improved API's - this one was more difficult to find for vaccine statistics. 
+Potentially finding improved weather API's. Goal is to improve the CSS, but for now I like it as is!
 
 ## Reflections:
 
-This was cool to build out - the API's were definitely harder to work with, but I enjoyed displaying real-world statistics. The CSS is something I'm hoping to update in the future.
+This was cool to build out - the API's were definitely harder to work with, but I enjoyed displaying National Parks around the US and their corresponding climate. The CSS is, as mentioned before, something I'm hoping to update in the future.
