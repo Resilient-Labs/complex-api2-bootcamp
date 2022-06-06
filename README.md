@@ -2,17 +2,12 @@
 
 ### Goal: Use data returned from one api to make a request to another api and display the data returned
 
-### How to submit your code for review:
+### Language : CSS ,HTML, JavaScript , API
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+
+![Screen Shot 2022-06-05 at 9 26 50 PM](https://user-images.githubusercontent.com/101997718/172079920-6da6b7ad-6474-4ea8-a4a2-528f712b6e4d.png)
+
+This was interesting using API as a loop. I used two API's one for gettign the album name , and the second one as getting the album cover picture
 
 Example:
 ```
