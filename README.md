@@ -1,22 +1,7 @@
-# 📊 Project: Complex API 2
+<h1> Complex API </h1>
+<P> This Application lets user enter a number between 1 and 826. Once a number is entered a random gif of rick and morty charcter will appear. With each Gif a second random Picture API is used.</p>
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+![rick ](https://user-images.githubusercontent.com/101954954/172288072-61cb47e1-cc48-4532-ac6f-7afd0f710612.png)
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Tech used: HTML, CSS, JavaScript, Web APIs 
