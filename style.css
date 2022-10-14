@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(wallpaper10.jpg);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
