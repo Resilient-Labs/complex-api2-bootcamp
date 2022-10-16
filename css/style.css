@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    background: rgb(33,35,40);
+    color: white;
+}
+h1 {
+    font-size: 100px;
+}
+main{
+    height: 400px;
+    display: block;
+    padding-left: 10%;
+}
+
+input,button {
+    border: 0;
+    background: white;
+    color: black;
+}
+
+div {
+    display: block;
+    min-height: 400px;
+    background-image: url(https://i.guim.co.uk/img/media/b563ac5db4b4a4e1197c586bbca3edebca9173cd/0_12_3307_1985/master/3307.jpg?width=1300&quality=45&dpr=2&s=none);
+    background-repeat: no-repeat;
+}
+
