@@ -1,22 +1,25 @@
-# 📊 Project: Complex API 2
+# 🎰 Week08 Bootcamp2021 Project: Complex API 2
 
 ### Goal: Use data returned from one api to make a request to another api and display the data returned
 
-### How to submit your code for review:
+This is my Complex Covid API project! Users can fetch the current number of confirmed cases and deaths within their region based on their IP address.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+<img src="covid.png"></img>
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Link to live site: [https://danielmtran-complexcovidapi.netlify.app]
+
+### How It's Made:
+
+Tech used: HTML, CSS, JAVASCRIPT
+
+I made the basic styling and layout of the app via HTML and CSS. The main functionality of the app was made using Javascript.
+
+
+### Optimizations:
+
+
+
+
+### Lessons Learned:
+
+I was able to put my newfound skills into making an app that can help others!
