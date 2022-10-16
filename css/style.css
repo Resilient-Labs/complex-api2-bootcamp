@@ -1,0 +1,64 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+header {
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+input {
+  margin: 1rem auto;
+}
+
+section {
+  text-align: center;
+}
+#title {
+  font-size: 4rem;
+}
+img {
+  width: 20%;
+}
+
+#release{
+  font-size: 3rem;
+
+}
+
+#about {
+  font-size: 2.5rem;
+  width: 50%;
+  margin: auto;
+}
+
+.review {
+  display: block;
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
