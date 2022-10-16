@@ -1,0 +1,24 @@
+* {
+    font-size: 14px;
+}
+
+body {
+    background-image: url('https://wallpaperaccess.com/full/497333.jpg');
+}
+
+div {
+    text-align: center;
+    padding: 32px;
+}
+
+img {
+    height: 200px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(217, 217, 73);
+    font-style: italic;
+}
