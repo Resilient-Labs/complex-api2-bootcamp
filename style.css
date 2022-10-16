@@ -1,0 +1,13 @@
+body {
+    background-image: url(rickandmorty.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ol { 
+    color: white;
+}
+
+.result {
+    color: white;
+}
