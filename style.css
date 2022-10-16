@@ -1,0 +1,104 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+a {
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+
+body{
+  background-color: #7a8e95;
+}
+
+h1 {
+ border: 1px solid black;
+ width: 30%;
+ padding: 5px;
+ border-radius: 5px;
+ height: auto;
+ margin: auto;
+ text-align: center;
+ background-color: #9e5475;
+}
+
+main{
+  display: flex;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  border-radius: 5px;
+  flex-direction: column;
+}
+
+main div{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-items: center;
+}
+
+h2, button{
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 5px;
+  flex: 1 0 0;
+  text-align: center;
+}
+
+button{
+  background-color: lightgray;
+  border: 0px;
+  height: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet size */
+@media (min-width:601px) and (max-width: 800px) {
+
+}
+
+
+
+
+ /* Mobile size  */
+@media only screen and (max-width: 600px) {
+
+}
+
