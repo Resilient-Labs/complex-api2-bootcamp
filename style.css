@@ -1,0 +1,23 @@
+body{
+  background-image: url(./images/land.jpg);
+  background-size: cover;
+}
+
+.button{
+  padding: 0.5%;
+}
+
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:white;
+}
+
+h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:white;
+  width: 30%;
+}
+
+img{
+  width:40%;
+}
