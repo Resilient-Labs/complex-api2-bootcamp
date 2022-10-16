@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+body{
+    /* background-image: url(https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/full_width/public/thumbnails/image/PAD-US%2C%20Bryce%20Canyon%20National%20Park.jpg?itok=jzGpH4gj);
+    background-size: cover; */
+    background:  rgba(137, 136, 91, 0.74);
+    font-family: 'Rubik', sans-serif;
+    /* background-repeat: no-repeat; */
+    height: auto;
+    
+}
+
+section{
+    height: 250px;
+    width: 100%;
+    background: rgba(83, 94, 51, 0.521);
+    padding-left: 20px;
+    text-align: center;
+
+}
+
+#first, #second, #credit{
+    width: 52%;
+    color: black;
+}
+.two{
+    height: 650px;
+    width: 100%;
+    padding-left: 20px;
+}
+
+img{
+    height: 400px;
+    max-width: 50%;
+    background: white;
+}
+
+#credit, #first, #second{
+    text-align: center !important;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+h2, h3, input, button{
+    margin-top: 45px;
+}
+
+h1{
+    padding-top: 15px;
+    font-weight: 500;
+}
+
+h4{
+    margin-top: 2px;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+h2, p{
+    font-weight: 400;
+}
+
+#second{
+    font-weight: 500;
+}
+
+
+input{
+    border: 1px solid rgb( 137, 136, 91);
+    width: 20%;
+    height: 46px;
+    background: rgba(192, 197, 179, 0.911);
+}
+    
+
+
+  

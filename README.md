@@ -1,22 +1,19 @@
-# 📊 Project: Complex API 2
+# National Park Service Complex API 
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+A National Park site. This site includes the ability for a user search for a state and a national park, within that state, with some futher details will appear. The current weather in that location is also displayed! This site uses data returned from one api to make a request to another api and display the data returned.
 
-### How to submit your code for review:
+**Try it out here:** https://nationalparksearch.netlify.app/ (disclaimer: weather API may not work via netlify. Feel free to download the code.)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![National Park API](https://i.imgur.com/ELn47VK.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+
+**Tech used:** HTML5, CSS, JavaScript, API
+
+## Optimizations
+
+Potentially finding improved weather API's. Goal is to improve the CSS, but for now I like it as is!
+
+## Reflections:
+
+This was cool to build out - the API's were definitely harder to work with, but I enjoyed displaying National Parks around the US and their corresponding climate. The CSS is, as mentioned before, something I'm hoping to update in the future.
