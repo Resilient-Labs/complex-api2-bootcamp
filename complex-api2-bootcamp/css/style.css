@@ -1,0 +1,12 @@
+.main{
+  text-align: center;
+  margin: left auto;
+  margin: right auto
+
+}
+body{
+  background-image: url(pexels-photo-3786155.jpeg);
+  background-repeat: no-repeat;
+  background-size: 1600px;
+  font-family: 'IBM Plex Mono', monospace;;
+}
