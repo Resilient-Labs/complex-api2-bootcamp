@@ -13,7 +13,7 @@ function findAuthor() {
             console.log(data)
 
             let author = data.docs[0].author_name
-            document.querySelector('h2').innerText = author
+            document.querySelector('h3').innerText = author
 
             fetch(`https://api.scaleserp.com/search?api_key=954312890F9E4974B9AB98A95CD2572C&q=${author}&hl=en&output=json`) //125 searches a month. Be mindful! 
                 .then(res => res.json()) // parse response as JSON

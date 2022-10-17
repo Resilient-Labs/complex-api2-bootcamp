@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+body {
+    background-image:url(../img/minimalistBackground.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-size: 50px;
+    color:rgb(24, 14, 2);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h4, h3, p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bookTitleInput {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+}
+
+.returnSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+input, button {
+    font-family: 'Merriweather', serif;
+}
