@@ -2,21 +2,10 @@
 
 ### Goal: Use data returned from one api to make a request to another api and display the data returned
 
-### How to submit your code for review:
+![gif](https://user-images.githubusercontent.com/91163017/196068541-b33c6ad8-cf65-44b0-86d9-3cfb1c749c45.gif)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Tech used:** HTML, CSS, JavaScript and web API
+
+App can be used to find information about any movie. After a movie name is entered a request is sent to the nytimes api and another request is made to the omdbapi. The omdbapi returns data about the movies release date, movie plot and critics reviews.
