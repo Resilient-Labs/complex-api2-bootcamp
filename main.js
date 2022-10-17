@@ -8,22 +8,42 @@ function Search() {
     fetch(url)
         .then(res => res.json())
         .then(data => {
-            let word = document.getElementById('result')
-            let def = document.getElementById('definition')
-            let audio = document.getElementById('audio')
+            let div = document.querySelector('div')
+            div.innerHTML = ''
+            // let audio = document.getElementById('audio')
+            // audio.setAttribute('src', data[0].phonetics[0].audio)
+            console.log(audio)
+            data.forEach(definition => {
+                definition.meanings.forEach(item => {
+                    item.definitions.forEach(subdefinition => {
+                        let def = document.createElement('p')
+                        def.innerText = subdefinition.definition
+                        // let div = document.querySelector('div')
+                        // div.innerHTML = ''
+                        console.log(def, div)
+                        div.appendChild(def)
+                    })
+                })
+            })
+            // let word = document.getElementById('result')
+            // let def = document.getElementById('definition')
+            // let def2 = document.getElementById('definition2')
+            // let audio = document.getElementById('audio')
+            // console.log(data, def)
+            // def.innerHTML = data[0].meanings[0].definitions[0].definition
+            // def2.innerHTML = data[0].meanings[0].definitions[1].definition
+            // console.log(data[0].meanings[0].definitions[0].definition)
+            // word.innerText = data[0].word
 
-            def.innerText = data.meanings[0].definitions[0].definition
-            word.innerText = data.word
-
-            audio.src = data.phonetics[0].audio
+            // audio.src = data[0].phonetics[0].audio
             console.log(data)
-            debugger
         })
     const url2 = `https://api.unsplash.com/photos/random?query=${input.value}&client_id=XEGreltdGwANEubbjLZ0CoFAedLg9RepRJQbD_1-zMQ`
     fetch(url2)
         .then(res => res.json())
         .then(data2 => {
-            image.src = `${data2[0].urls.raw}`
+            console.log(data2)
+            image.src = `${data2.urls.raw}`
 
         })
         .catch(err => {
@@ -31,3 +51,4 @@ function Search() {
         })
 
 }
+// 
