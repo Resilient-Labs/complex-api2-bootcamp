@@ -1,11 +1,11 @@
-// music app where it shows lyrics and artist info
 
-document.querySelector("button").addEventListener('click', Recipe);
 
-function Recipe() {
+document.querySelector("button").addEventListener('click', recipe);
+
+function recipe() {
   let inputValue = document.querySelector("input");
   let theInstructions = document.querySelector('h2')
-  fetch(`www.themealdb.com/api/json/v1/1/search.php?s=${inputValue}`)
+  fetch(`www.themealdb.com/api/json/v1/1/search.php?f=${inputValue}`)
     .then((res) => res.json())
     .then((data) => {
       console.log(data);
@@ -13,26 +13,26 @@ function Recipe() {
 
 
       
-        let secondUrl = `https://rawcdn.githack.com/kamikazechaser/administrative-divisions-db/master/api/${countryCode}.json`;
-
+        let secondUrl = `https://api.spoonacular.com/recipes/random?apiKey=c2c8fa39ba3c4ec491ea56bb5c949fca`;
+        let randomRecipes = document.querySelector('h3')
         fetch(secondUrl)
     
       
         .then((res) => res.json())
         .then((data2) => {
           console.log(data2);
-          population.innerText = `Administrative Division: ${data2}`
+          randomRecipes.innerText = `${data2}`
 
         });
 
-      }
     })
+    
 
     .catch((err) => {
       console.log(`err ${err}`);
     });
 }
 
-getInformation();
+recipe();
 
 // //
