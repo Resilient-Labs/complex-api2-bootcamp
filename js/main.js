@@ -16,7 +16,7 @@ document.querySelector("button").addEventListener("click", () => {
     .then(data => {
 
         document.querySelector("img").src = data.Poster
-        document.querySelector("#release").innerText = `Realse Date: ${data.Released}`
+        document.querySelector("#release").innerText = `Release Date: ${data.Released}`
         document.querySelector("#about").innerText = data.Plot
         
 
