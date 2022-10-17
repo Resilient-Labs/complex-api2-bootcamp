@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  text-align: center;
+  color: whitesmoke;
+  font-size: 62.5%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(140, 160, 97);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-size: 2rem;
+}
+p{
+  font-size: 1.1rem;
+  padding: 0 15%;
+}
+.intro{
+  font-size: 1.6rem;
+}
+button{
+  border-radius: 5px;
+}
