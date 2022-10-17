@@ -5,8 +5,8 @@ document.querySelector("button").addEventListener('click', recipe);
 function recipe() {
   let inputValue = document.querySelector("input");
   let theInstructions = document.querySelector('h2')
-//   CORS error
-  fetch(`www.themealdb.com/api/json/v1/1/search.php?f=${inputValue}`)
+//   CORS error - JK I fixed it
+  fetch(`https://www.themealdb.com/api/json/v1/1/search.php?f=${inputValue}`)
     .then((res) => res.json())
     .then((data) => {
       console.log(data);
