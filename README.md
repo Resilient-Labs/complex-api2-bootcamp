@@ -1,4 +1,4 @@
-# Event Finder Website
+# Weather by zipcode API
 
 ### Web application that displays the current weather using two APIs
 
