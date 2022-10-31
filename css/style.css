@@ -16,6 +16,26 @@ img{
 }
 
 
+input, button {
+  border-radius: 5px;
+}
+
+body{
+  margin-top: 63px;
+  text-align: center;
+  font-weight: bolder;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* color: white; */
+    
+}
+
+h3, h4 {
+  border-top: 3px solid gray;
+  border-bottom: 3px solid gray;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
