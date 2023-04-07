@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("https://www.securitymagazine.com/ext/resources/images/location-data-freepik55842.jpg?1637330182");
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+  border-radius: 30px;
+}
+
+.title {
+  margin-top: 20px;
+}
+
+#result {
+  margin-top: 30px;
+}
+
+#result img {
+  width: 50%;
+  height: auto;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(22, 89, 181, 0.8);
+    width: 80%;
+    border-radius: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(22, 89, 181, 0.8);
+    width: 90%;
+    border-radius: 30px;
+  }
+}
