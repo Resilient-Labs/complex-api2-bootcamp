@@ -5,6 +5,8 @@
 /* Box Model Hack */
 *{
   box-sizing: border-box;
+  font-family: 'Rubik Pixels', cursive;
+  
 }
 
 /******************************************
@@ -12,12 +14,28 @@
 /*******************************************/
 
 body{
+ 
+  background: url('../img/riddlebg.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.629);
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 2%;
+  text-align: center;
 }
-
+/* h3, h4, h5 {
+  width: 50%;
+} */
+span{
+  margin-bottom: 30px;
+}
 
 
 /******************************************
