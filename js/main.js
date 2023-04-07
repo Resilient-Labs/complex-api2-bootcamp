@@ -16,9 +16,6 @@ function getRiddle(){
       console.log(data)
       document.querySelector('h4').innerText= `${data.contents.translated}`
 
-      
-    
-
     })
     
   })
