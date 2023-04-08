@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+}
+
+:root {
+  font-size: 62.5%;
+  background-image: url(/Users/valerygonzalez/Desktop/RC/Week-8/complex-api2/img/zen.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  border-radius: 10px;
+  margin: 1%;
+  border: 1px solid grey;
+  background-color: rgb(249 243 243 / 50%);
+  width: 18%;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+h1, h3{
+  font-size: 2rem;
+  color: rgb(40, 39, 39);
+  margin: 10%;
+  background-color: rgb(249 243 243 / 50%);
+}
+iframe{
+  border: none;
+}
