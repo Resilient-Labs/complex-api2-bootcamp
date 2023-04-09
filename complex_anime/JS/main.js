@@ -9,7 +9,7 @@ function getAnime() {
             const resultList = document.querySelector("ul");
             resultList.innerHTML = "";
             for (let i = 0; i < data.data.length; i++) {
-                const title = `${data.data[i].attributes.titles.ja_jp}  / ${data.data[i].attributes.titles.en_jp}`;
+                const title = `${data.data[i].attributes.abbreviatedTitles}  / ${data.data[i].attributes.canonicalTitle}`;
                 const rating = data.data[i].attributes.ageRatingGuide;
                 const description = data.data[i].attributes.description;
                 if (!title || title === undefined) {
@@ -19,6 +19,7 @@ function getAnime() {
                 let itemHTML = "<h2><strong>Title:</strong> ";
                 itemHTML += title;
                 itemHTML += "</h2><h3><strong>Rating:</strong> ";
+                console.log(data)
                 if (rating) {
                     itemHTML += rating;
                 }
