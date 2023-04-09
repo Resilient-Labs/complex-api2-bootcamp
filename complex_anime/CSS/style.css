@@ -6,6 +6,7 @@ Box Sizing
 * {
     box-sizing: border-box;
 }
+
 /*
 ===============================================
 Layout
@@ -16,12 +17,16 @@ li {
     border: 2px solid black;
     list-style-type: none;
 }
+
 ul {
     padding-inline-start: 0;
+    padding-top: 175px;
 }
 
 .translate {
     display: block;
+    margin-top: 25px;
+    font-size: .9rem;
 }
 
 /*
@@ -29,9 +34,11 @@ ul {
 Styling
 ===============================================
 */
+
 html {
     background: url("../CSS/bg.jpg");
 }
+
 li {
     padding: 20px;
     width: 98%;
@@ -39,32 +46,41 @@ li {
     margin-bottom: 15px;
     background: rgba(255, 255, 255, .95);
 }
-.translate {
-    margin-top: 20px;
-}
+
 h1 {
     height: 125px;
     font-family: "bungee shade";
     letter-spacing: 20px;
-    background: linear-gradient(to right, rgba(220, 170, 8, .01),rgb(236, 4, 4), rgb(222, 110, 5), rgb(220, 170, 8), rgb(220, 170, 8, .01));
+    background: linear-gradient(to right, rgba(220, 170, 8, .01), rgb(236, 4, 4), rgb(222, 110, 5), rgb(220, 170, 8), rgb(220, 170, 8, .01));
     text-align: center;
     position: fixed;
     width: 100%;
     margin: auto;
-    margin-top: 0;
+    top: 0;
     padding: 30px;
 }
+
 select {
     text-align: center;
-    margin-top: 125px;
+}
+
+.anime {
+    margin-left: 200px;
+}
+select, .anime {
+    position: fixed;
+    top: 125px;
 }
 body {
     margin: 0;
 }
-select, button {
+
+select,
+button {
     font-size: 1.2rem;
     margin-left: 10px;
 }
+
 @media (min-width: 878px) {
     h1 {
         font-size: 2.5rem;
