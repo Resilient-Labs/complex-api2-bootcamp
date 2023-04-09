@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  background-color: black;
+  text-align: center;
+  padding-top: 50px;
+}
+html{
+    color: rgb(31, 176, 198);
+    font-family: "Creepster", sans-serif;
+}
+
+
+h1{
+  color: rgb(31, 176, 198);
+  text-shadow: 2px 2px rgb(120, 222, 114);
+  font-size: 5rem;
+}
+
+button{
+    font-family: "Creepster", sans-serif;
+    width: 10%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 4px;
+}
