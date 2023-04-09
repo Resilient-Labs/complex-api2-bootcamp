@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url(https://media.giphy.com/media/ePVaotrqY3uwtXvYF7/giphy.gif);
+  /* background-image: url('Screen\ Shot\ 2023-04-09\ at\ 6.24.34\ PM.png'); */
+  background-size: cover;
+  font-family: 'Mouse Memoirs';
+  /* color: white; */
+  margin-left: 50px;
+  font-size: xx-large;
+  font-weight: 900;
+  text-align: center;
+}
+#name, #check{
+  font-family: 'Mouse Memoirs';
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+#check{
+  background-color: red;
+  margin-top: 15px;
+  color: white;
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 9px;
+}
+
+#name{
+  width: 30%;
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+  text-align: center;
+}
