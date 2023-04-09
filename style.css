@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 2rem;
+  margin:80px;
+}
+
+button{
+  padding:10px;
+}
+#riddle-answer{
+  font-size: 1.5rem;
+  color: gray;
+}
