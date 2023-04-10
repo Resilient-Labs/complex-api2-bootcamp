@@ -1,0 +1,17 @@
+*{
+  box-sizing:border-box;
+}
+
+h1{
+text-align: center;
+}
+
+body{
+background:url(..//images/musuem.jpeg);
+background-repeat: no-repeat;
+background-size:100%;
+}
+
+.butt{
+margin-left:50%;
+}
