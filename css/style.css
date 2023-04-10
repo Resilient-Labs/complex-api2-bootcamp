@@ -7,6 +7,34 @@
   box-sizing: border-box;
 }
 
+body{
+  background-image: url(../img/clouds.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+h1{
+  font-family: 'Bebas Neue', cursive;
+  color: yellow;
+}
+
+h2{
+  font-family: 'Signika Negative', sans-serif;
+  color: red;
+}
+
+p{
+  font-family: 'Signika Negative', sans-serif;
+  color: white;
+}
+
+img{
+  width: 40%;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
