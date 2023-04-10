@@ -1,0 +1,44 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background: url(../img/kitty.jpg);
+  text-align: center;
+
+}
+
+h1{
+  font-size: 3rem;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  border: 2px solid black;
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+button{
+  background-color: black;
+  color: white;
+  margin-bottom: 3%;
+}
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
