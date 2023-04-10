@@ -1,0 +1,38 @@
+@font-face {
+  font-family:'Barriecito' ;
+  src: url(Barriecito-Regular.ttf);
+}
+
+
+body{
+  text-align: center;
+    border: 3px solid black;
+    width: 75%;
+    border-radius: 40%;
+    padding: 50px 0px;
+    margin: 85px auto;
+    background-color: blanchedalmond;
+    background-size: cover;
+    min-height: 625px;
+}
+
+h1{
+  font-family: 'Barriecito';
+  font-size: 65px;
+  font-weight: 100;
+}
+input, button{
+  font-size: 20px;
+  border-radius: 15px;
+  padding:8px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.name, .age, .fact{
+  font-size: 26px;
+  margin-top: 37px;
+  font-family: 'Delius Unicase', cursive;
+  font-weight: 100;
+}
+.name{
+  margin-top: 45px;
+}
