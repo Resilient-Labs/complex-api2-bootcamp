@@ -28,7 +28,9 @@ h2{
 
 p{
   font-family: 'Signika Negative', sans-serif;
-  color: white;
+  color: red;
+  background-color: rgba(255, 255, 255, 0.537);
+  font-weight: bolder;
 }
 
 img{
