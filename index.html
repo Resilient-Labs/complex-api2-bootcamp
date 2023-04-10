@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Your description goes here">
+	<meta name="keywords" content="one, two, three">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Avatar Character Generator</title>
+
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<section class="search-container">
+		<h1>Avatar Character Generator</h1>
+		<p>Search for your favorite Avatar: The Last Airbender character below and get back a bio, photo, and video relating
+			to the character!</p>
+		<!-- <label for="input">Enter Character Here:</label> -->
+		<section class="input-bar">
+			<input name="input" type="text" placeholder="Azula">
+			<button>Search</button>
+		</section>
+	</section>
+	<section id="character" class="character-container">
+		<h3 class="protagonist-name"></h3>
+		<img src="" alt="Photo from the Animated TV Series Avatar: The Last Airbender" class="protagonist-img">
+		<section class="affiliation">
+			<h5>Affiliation(s):</h5>
+			<p class="protagonist-description"></p>
+		</section>
+		<iframe class="protagonist-video" width="560" height="315" src="" title="YouTube Video Player" frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+			allowfullscreen></iframe>
+	</section>
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
