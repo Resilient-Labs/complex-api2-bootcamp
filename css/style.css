@@ -1,0 +1,95 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+html{
+  font-size: 62.5%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+html { 
+  background: url(../photos/aangbackground.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.search-container{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search-container p{
+  border: 1px solid black;
+  background: lightgreen;
+  border-radius: 2px;
+  opacity: 0.5;
+}
+.character-container{
+  display: none;
+  /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+}
+.input-bar{
+  display: flex;
+  flex-direction: row;
+}
+.input-bar input, .input-bar button{
+  background: lightsalmon;
+}
+label{
+  margin-bottom: 5px;
+}
+input{
+  margin-right: 2px;
+}
+.protagonist-name{
+  border: 1px solid black;
+  background: lightblue;
+  border-radius: 2px;
+  opacity: 0.5;
+}
+.affiliation{
+  border: 1px solid black;
+  background: red;
+  border-radius: 2px;
+  opacity: 0.5;
+  margin: 10px;
+}
