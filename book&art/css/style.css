@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    text-align: center;
+    background: url('.//pic/oldframe.jpg');
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Bungee Shade';
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+#good {
+    color: rgb(1, 200, 250);
+}
+
+#bad {
+    color: darkgrey;
+}
+
+h2,
+p {
+    font-family: 'Cinzel';
+    font-size: 1.2rem;
+    color: rgb(125, 166, 148);
+}
+
+p {
+    text-decoration: underline;
+    text-decoration-color: gold;
+    font-size: 1.5rem;
+}
+
+
+
+
+button {
+    border-radius: 20px;
+    border: 5px groove gold;
+    width: 200px;
+    background: goldenrod;
+
+}
+
+input {
+    border-radius: 20px;
+}
+
+h3 {
+    width: 400px;
+    margin: auto;
+    color: whitesmoke;
+    border: 10px groove gold;
+    font-family: 'Bunggie';
+}
+
+li {
+    color: whitesmoke;
+    font-size: 1.3rem;
+    list-style: none;
+}
