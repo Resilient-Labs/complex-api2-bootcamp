@@ -1,0 +1,60 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  color: white;
+  background: black;
+  border: 1px dashed red;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+img{
+  height: 50%;
+  border-radius: 15%;
+}
+
+div{
+  justify-content: center;
+    display: flex;
+    height: 50%;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
