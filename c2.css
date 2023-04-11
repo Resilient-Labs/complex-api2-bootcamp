@@ -3,36 +3,68 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
-}
-header {
-    background-color: #333;
-    color: white;
-    padding: 10px;
     text-align: center;
+    background-image: url(/2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+
 }
-main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+header,footer {
+    background-color: #fcf9f9;
+    color: goldenrod;
+    padding: 25px;
+    text-align: center;
+    align-content: center;
+  
 }
+
 h2 {
-    margin-top: 0;
+    margin: 25px;
+   color: goldenrod;
+   
+} 
+
+a:hover {
+    color: goldenrod;
 }
+a{color: black;}
+      
 .row {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-wrap:wrap;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+
+    
+    
 }
+.row2 {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    
+}
+
 .card {
-    background-color: white;
-    box-shadow: 0 0 5px 1px rgba(0,0,0,0.1);
+    background-color: rgba(255, 255, 255, 0.424);
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.476);
     margin-bottom: 20px;
-    width: calc(50% - 10px);
+    width:580px;
     padding: 20px;
     box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+
 }
 .card img {
-    max-width: 100%;
+    max-width: 500px;
     height: auto;
 }
 .card p {
@@ -43,3 +75,5 @@ h2 {
     text-align: center;
     margin-top: 20px;
 }
+
+              
