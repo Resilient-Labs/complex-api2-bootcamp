@@ -1,27 +1,27 @@
 *{
     box-sizing: border-box;
 }
-/* CSS code for the HTML document */
 
-/* Reset the default margin and padding for all elements */
+
+
 * {
     margin: 0;
     padding: 0;
   }
   
-  /* Style the body background */
+ 
   body {
     background-color: pink;
   }
   
-  /* Style the section container */
+  
   .one {
     padding: 20px;
     text-align: center;
     background-color: pink;
   }
   
-  /* Style the button */
+ 
   button {
     background-color: pink;
     border: none;
@@ -32,14 +32,14 @@
     padding: 10px 20px;
   }
   
-  /* Style the image */
+ 
   img {
     display: block;
     margin: 0 auto;
     width: 60%;
   }
   
-  /* Style the headings */
+  
   h2 {
     font-size: 36px;
     font-weight: bold;
