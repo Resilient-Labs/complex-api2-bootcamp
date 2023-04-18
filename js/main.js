@@ -17,22 +17,13 @@ function getRiddle(){
       document.querySelector('h4').innerText= `${data.contents.translated}`
 
     })
+    document.querySelector('h5').innerText = `Answer: ${data.answer}`
     
   })
     .catch(err => {
         console.log(`error ${err}`)
       });
 }
-function getAnswer(){ 
-  const url = `https://riddles-api.vercel.app/random`
-  fetch(url)
-  .then(res => res.json()) // parse response as JSON
-  .then(data => {
-   console.log(data)
-    //const thanksJoyce = Math.floor(Math.random()* 10)
-    //let quote = data[thanksJoyce].content.rendered
-    document.querySelector('h5').innerText = `Answer: ${data.answer}`
-  })
-}
+
 document.querySelector('button').addEventListener('click', getRiddle)
-document.querySelector('#answer').addEventListener('click', getAnswer)
+// document.querySelector('#answer').addEventListener('click', getAnswer)
