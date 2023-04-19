@@ -21,7 +21,7 @@ function numberToFact() {
       }
       let nameAge = data.age 
 
-      const url2 = `https://numbersapi.com/${nameAge}`
+      const url2 = `http://numbersapi.com/${nameAge}`
       console.log(`url2 = ${url2}`)
       fetch(url2)
         .then(res => res.text())
