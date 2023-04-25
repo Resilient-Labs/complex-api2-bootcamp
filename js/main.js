@@ -6,7 +6,7 @@ function lastFM() {
   let artist = document.querySelector('#artist').value
   let albumImage = document.querySelector('.album')
 
-  const url = `http://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=${apiKey}&artist=${artist}&album=${albumName}&format=json`;
+  const url = `https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=${apiKey}&artist=${artist}&album=${albumName}&format=json`;
 
   fetch(url)
     .then(response => response.json())
