@@ -23,10 +23,10 @@ function lastFM() {
 
       albumTitle.innerText = `Album : ${data.album.name} by ${data.album.artist}`
     if(trackTotal === 'null'){
-      trackTotal = (Math.ceil(Math.random()*60)).toString()
+      trackTotal = (Math.ceil(Math.random()*25)).toString()
     }
     if( trackSum >= 9 && trackSum <= 16){
-     trackSum = Math.ceil(Math.random()*(100-60)+1)
+     trackSum = Math.ceil(Math.random()*(5)+1)
     }
 
     console.log(trackTotal)
@@ -47,8 +47,8 @@ function getComic(trackSum){
 // let selection = document.querySelector('input').value
 const comic = document.querySelector('.comic')
 let comicName = document.querySelector('#comicName')
-let url = `https://comicvine.gamespot.com/api/issues/?api_key=9bde55ab2add47e90aa4662580878024f0585bae&format=json&filter=series:4005,issue_number:${trackSum},name:X-Men&sort=field_list=name,issue_number,description,image/`
-fetch(url) 
+let url = `https://comicvine.gamespot.com/api/issues/?api_key=9bde55ab2add47e90aa4662580878024f0585bae&format=json&filter=series:4005,issue_number:8,name:X-Men&sort=field_list=name,issue_number,description,image/`
+fetch(url)
   .then(res => res.json()) // parse response as JSON 
   .then(data => { 
     console.log(data)
