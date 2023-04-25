@@ -13,9 +13,18 @@
 img{
   display: block;
   margin: 0 auto;
+  
 }
 
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-image: url("https://images.unsplash.com/photo-1558258021-971dd2148be5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80");
+    background-size: cover;
+}
