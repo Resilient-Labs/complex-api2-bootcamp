@@ -48,7 +48,7 @@ function getComic(trackSum){
 const comic = document.querySelector('.comic')
 let comicName = document.querySelector('#comicName')
 const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
-const apiUrl = 'https://comicvine.gamespot.com/api/issues?api_key=9bde55ab2add47e90aa4662580878024f0585bae&filter=issue_number:137,field_list=name,id,image,issue_number,volume';
+const apiUrl = `https://comicvine.gamespot.com/api/issues/?api_key=9bde55ab2add47e90aa4662580878024f0585bae&format=json&filter=series:4005,issue_number:${trackSum},name:X-Men&sort=field_list=name,issue_number,description,image/`;
 
 fetch(proxyUrl + apiUrl, {
   headers: {
