@@ -3,21 +3,8 @@
 
 ### Goal: Use data returned from one api to make a request to another api and display the data returned
 
-### How to submit your code for review:
+As a series, X-Men has many twists and turns and plenty of points to jump into the series from. With so many choices it can be hard to know where to start or where to go next.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+The X-MEN comic generator is an application that will generate an X-Men comic to read based on your favorite album!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+This application takes the first track of the selected album , splits and reduces the duration of the first track which gives us an issue number. For more variation i've passed that final number through a Math.random() function.
