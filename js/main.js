@@ -16,17 +16,17 @@ function lastFM() {
     albumImage.src = data.album.image.find(img => img.size === 'extralarge')?.['#text']; //this line is accessing the album art cover, the data was hard to grab because the 'text' property had an octothorpe in front of it.
     let albumTitle= document.querySelector('#albumName')
     //'track total' represents the duration of the first track of the selected album.Following that 'track array' converts the numbers of the duration into strings and track covert turns them back into individual numbers. finally 'track sum' adds those numbers together to give us an issue number id to search for in the comic vine api. Ellie helped me with the ternary opeator on line 19 which allows the program to still generate a comic if the given album doesnt have a track duration. I also created some conditionals due to a few albums I tested ended up being a few of the same issue id's so i added in some randomization methods to switch it up a bit.
-    let trackTotal = 'tracks' in data.album ? `${data.album.tracks.track[1].duration}`: (Math.ceil(Math.random()*8912)).toString() 
+    let trackTotal = 'tracks' in data.album ? `${data.album.tracks.track[1].duration}`: (Math.ceil(Math.random()*(10)+1)).toString() 
     let trackArray = trackTotal.split('')
     let trackConvert = trackArray.map(x => +x)
-    let trackSum = trackConvert.reduce((a,b) => a+b,0)
+    let trackSum = trackConvert.reduce((a,b) => a+b,)
 
       albumTitle.innerText = `Album : ${data.album.name} by ${data.album.artist}`
     if(trackTotal === 'null'){
-      trackTotal = (Math.ceil(Math.random()*25)).toString()
+      trackTotal = (Math.ceil(Math.random()*5)).toString()
     }
     if( trackSum >= 9 && trackSum <= 16){
-     trackSum = Math.ceil(Math.random()*(5)+1)
+     trackSum = Math.ceil(Math.random()*(20)+1)
     }
 
     console.log(trackTotal)
@@ -47,7 +47,8 @@ function getComic(trackSum){
 // let selection = document.querySelector('input').value
 const comic = document.querySelector('.comic')
 let comicName = document.querySelector('#comicName')
-const apiUrl = 'https://corsproxy.io/?' + encodeURIComponent(`https://comicvine.gamespot.com/api/issues/?api_key=9bde55ab2add47e90aa4662580878024f0585bae&format=json&filter=series:4005,issue_number:${trackSum},name:X-Men&sort=field_list=name,issue_number,description,image/`);
+const apiUrl = 'https://corsproxy.io/?' + encodeURIComponent(`https://comicvine.gamespot.com/api/issues/?api_key=9bde55ab2add47e90aa4662580878024f0585bae&format=json&filter=issue_number:${trackSum},name:X-Men,sort=field_list=name,issue_number,person_credits,description,image/
+`);
 
 fetch(apiUrl, 
 )
@@ -55,8 +56,14 @@ fetch(apiUrl,
   .then(data => { 
     console.log(data)
 //selects a comic name and cover from the comic vine database, I tried my best to pick from the arrays with the most english-language issues of X-men
-   comic.src = data.results[1].image.medium_url
-   comicName.innerText = data.results[1].name
+if(  data.results[60] === undefined){
+  comic.src = data.results[1].image.medium_url
+  comicName.innerText = data.results[1].name
+}else{
+    comic.src = data.results[60].image.medium_url
+    comicName.innerText = data.results[60].name
+}
+ 
   
   }) 
   .catch(err => { 
