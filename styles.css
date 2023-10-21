@@ -1,0 +1,24 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url(imgs/photo-1516467508483-a7212febe31a.avif);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+}
+
+li {
+    list-style: none;
+    font-size: 2rem;
+    color: black;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 0.5rem;
+
+}
