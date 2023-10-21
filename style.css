@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'SLBookArts';
+    src: url('Slbookarts-MWAx.ttf');
+}
+@font-face {
+    font-family: 'Library Records';
+    src: url('LibraryRecordsRegular-qZW66.ttf');
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Library Records';
+}
+span{
+    font-family: 'SLBookArts';
+}
+.intro{
+    font-size: 40px;
+
+    padding: -10px;
+}
+h3,h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* #story{
+    background-image: url(gbook.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+div +div{
+    width: 50%;
+    float: left;
+}
+input, button{
+    font-family: 'Library Records';
+    width: 353px;
+    text-align: center;
+}
