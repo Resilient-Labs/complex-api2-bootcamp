@@ -5,7 +5,7 @@
 # About this project
 Enter a word, find the definition in the dictionary, and see 10 Beyonce songs that include that word in the lyrics.
 
-Checkout this project here: 
+Checkout this project here: https://jacinthadev.github.io/complex-api2/
 
 ## How It's Made:
 Tech used: HTML, CSS, JavaScript
