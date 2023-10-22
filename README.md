@@ -1,20 +1,17 @@
-# ☀️🚀 Complex Nasa API
+#  🎤 Beyonce Lyrics API
 
-<img width="1421" alt="complex-nasa " src="/img/nasa.png">
+<img width="1421" alt="beyonce api" src="/img/beyonce.png">
 
 # About this project
-This project uses an API to find all the NASA centers in the US and return the current temperature at that location.
+Enter a word, find the definition in the dictionary, and see 10 Beyonce songs that include that word in the lyrics.
 
-Checkout this project here: https://jacinthadev.github.io/complex-nasa/
+Checkout this project here: 
 
 ## How It's Made:
 Tech used: HTML, CSS, JavaScript
 
-This code shows the 13 unique NASA centers and allows you to click on each one to see the temperature at that location. I also included (commented out) code to display all 485 facilities if a user wished to see all of them.
-
-
 ## Lessons Learned:
-This was my first time using two APIs in the same project and having them communicate with each other. It was a learning process. I had to assure that I was storing information from one API in a way that the other could understand and return additional information. I also learned how to carefully looping through large sets of data to remove duplicates and return specific information.
+By the time I did this project, I had already done 6 API projects and felt very comfortable with handling APIs. This was my fastest API project so far. I had never really used tables before, so this project taught me how to set up a table appending table rows and table data with JS. 
 
 ## Examples:
 Take a look at similar projects!
@@ -27,6 +24,6 @@ Workout App: https://github.com/JacinthaDev/simple-api-1
 
 #### API Used:
 
-https://www.weatherbit.io/api/weather-current
+Free Dictionary API: https://dictionaryapi.dev/
 
-https://data.nasa.gov/Management-Operations/NASA-Facilities/scmi-np9r
+Musixmatch API: https://developer.musixmatch.com/

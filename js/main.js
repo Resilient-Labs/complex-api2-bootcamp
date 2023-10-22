@@ -1,82 +1,78 @@
-let apiKey = '04d38a269b124b12b7b810cc1df607bb'
+document.querySelector('button').addEventListener('click', getWord)
 
-fetch(`https://data.nasa.gov/resource/gvk9-iz74.json`)
-.then(res => res.json()) // parse response as JSON 
-.then(data => { 
+function getWord(){
+    let word = document.querySelector('input').value
 
-//This loop removes the NASA facilities that share the same center, since those facilities would have the same temperature
-    let arr = []
-    let arr2 =[]
-    for (let i = 0; i < data.length - 1; i++){ 
-        if (!arr.includes(data[i].center)){
-            arr.push(data[i].center)
-            arr2.push(data[i])
-        }
-    }
-    //Alphabetize the centers by name
-    arr2.sort((a,b) => a.center.localeCompare(b.center))
-
-
-/*
-    //If you want to see all 485 facilities, uncomment the following code block & line 38. Comment out line 37 & lines 8-17
-        let arr2 =[]
-        for (let i = 0; i < data.length - 1; i++){ 
-            arr2.push(data[i])
-        }
-
-        //Alphabetize the centers by name
-        arr2.sort((a,b) => a.facility.localeCompare(b.facility))
-*/
-
-
-//Create and append the list items to the DOM
-    let list = document.querySelector('ul')
-    arr2.forEach((item) => {
-    let listItems = document.createElement('li')
-    listItems.addEventListener('click', getZipcode)
-    listItems.innerText = `🚀 ${item.center}, ${item.city}, ${item.state}`
-    //listItems.innerText = `🚀 ${item.facility}, ${item.center}, ${item.city}, ${item.state}`
-    list.appendChild(listItems)
-
-    //some zipcodes are 10 digits. Our weather API doesn't recognize those. Remove them
-    if (item.zipcode.length >5){
-        listItems.value = item.zipcode.slice(0,5)
-    } else{
-        listItems.value = item.zipcode
-    }  
-})
-
-
-    function getZipcode(e){
-        let zip = e.target.value
-        getTemp(zip)
-    }
-
-})
-
-.catch(err => { 
-    console.log(`error ${err}`) 
-})
-
-
-
-//Weather API
-
-function getTemp(zip){
-
-    fetch(`https://api.weatherbit.io/v2.0/current?key=${apiKey}&units=i&postal_code=${zip}&country=US`)
+    fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`)
     .then(res => res.json()) // parse response as JSON 
     .then(info => { 
 
-        console.log(info)
-        document.querySelector('#city').innerText = `${info.data[0]['city_name']}, ${info.data[0]['state_code']}`
-        document.querySelector('#description').innerText = `${info.data[0].weather.description}`
-        document.querySelector('#farenheit').innerText = `${info.data[0].temp} °F`
-        document.querySelector('#precip').innerText = `${info.data[0].precip} %`
-        document.querySelector('#uv').innerText = `${Math.round(info.data[0].uv)}`
-        document.querySelector('#humidity').innerText = `Humidity: ${info.data[0].rh} %`
-        document.querySelector('#pressure').innerText = `Pressure: ${info.data[0].pres}°`
-        document.querySelector('#windSpeed').innerText = `Wind: ${info.data[0]['wind_spd']} mph`
+        let table = document.querySelector('table')
+        table.innerHTML=''
+        let row
+
+        info[0].meanings.forEach(element => {
+
+            //make a table header for each part of speech
+            let header = document.createElement('th')
+            row= document.createElement('tr')
+            table.appendChild(row)
+            row.appendChild(header)
+            header.innerText = `${element.partOfSpeech}`
+
+
+            //grab the definition for each part of speech
+            element.definitions.forEach(element =>{
+
+                // //make a new row for each definition in a given part of speech
+                    let data = document.createElement('td')
+                    row= document.createElement('tr')
+                    table.appendChild(row)
+                    row.appendChild(data)
+                    data.innerText= `${element.definition}`
+            })
+            
+        })
+
+        getSong(word)
+    
+    })
+
+    .catch(err => { 
+        console.log(`error ${err}`) 
+    })
+}   
+
+
+
+function getSong(word){
+
+    fetch(`https://api.musixmatch.com/ws/1.1/track.search?q_artist=beyonce&page_size=10&page=1&q_lyrics=${word}&apikey=6a50050a1c3b3bfdd723c64c58694bfa`)
+    .then(res => res.json()) // parse response as JSON 
+    .then(info => { 
+
+        let list = document.querySelector('ul')
+        list.innerHTML=''
+
+
+        let arr = []
+        let arr2 =[]
+
+        info.message.body['track_list'].forEach(element => {
+
+            if (!arr.includes(element.track['track_name'].toLowerCase())){
+                arr.push(element.track['track_name'].toLowerCase())
+                arr2.push(element.track['track_name'])
+            }
+        })
+
+        arr2.forEach(element => {
+
+
+            let listItems = document.createElement('li')
+            list.appendChild(listItems)
+            listItems.innerText = `${element}`
+        }); 
 
     })
 
@@ -84,4 +80,4 @@ function getTemp(zip){
         console.log(`error ${err}`) 
     })
 
-}   
+}

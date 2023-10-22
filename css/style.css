@@ -1,0 +1,91 @@
+.header {
+    margin: 0 auto 2rem; 
+    display: flex; 
+    justify-content: center;
+    
+}
+
+.table-div{
+    overflow: scroll;
+    margin-left: 3rem;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid pink;
+    border-collapse: collapse;
+    }
+
+th, td{
+    padding: 1rem;
+}
+
+.row2,.row4{
+    background-color: lightgrey;
+}
+
+input,button{
+    display: block;
+}
+
+
+li{
+    padding: .5rem 0;
+    font-size: 1.5rem;
+}
+
+.list-box, .table-div{
+    float: left;
+    width: 40%;
+    padding-left: 3rem;
+    color: white;
+    border: 5px solid white;
+    border-radius: 20px;
+    height: 400px;
+
+
+}
+
+.list-box{
+    margin-left: 2rem;
+}
+
+table{
+    padding: 2rem;
+    padding-right: 3rem;
+}
+
+body{
+    background-image: url(../img/beyonce.svg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    color: white;
+}
+
+
+/* scrollbar CSS from w3Schools */
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+  /* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: pink; 
+    border-radius: 10px;
+}
+
+Handle on hover
+::-webkit-scrollbar-thumb:hover {
+    background: pink; 
+}
