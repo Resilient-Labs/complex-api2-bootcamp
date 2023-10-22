@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Star Jedi';
+    src: url("Starjedi.ttf")
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url(../img/ronyoda.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+h1{
+    font-family: 'Star Jedi', Arial, Helvetica, sans-serif;
+    font-size: 7rem;
+    margin: 1%;
+    background-color: rgba(223, 226, 219, 0.7);
+}
+
+#container {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    height: 70vh;
+    align-items: center;
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+}
+
+#quote,
+#translate {
+    width: 32%;
+    height: 50vh;
+    background-color: rgb(96, 94, 95);
+    border: 3px solid rgb(66, 56, 55);
+    border-radius: 15px;
+    padding: 0px 3%;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3.5rem;
+    font-family: 'Star Jedi', Arial, Helvetica, sans-serif;
+    margin: 1%;
+}
+
+#yoda, #swanson{
+    display: flex;
+    justify-content: center;
+    font-size: 2.8rem;
+    text-align: center;
+    height: 30vh;
+    align-items: center;
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+}
+
+button{
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: rgb(96, 94, 95);
+    color: white;
+    border-radius: 15px;
+}
