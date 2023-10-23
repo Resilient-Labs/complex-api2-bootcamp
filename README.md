@@ -1,22 +1,15 @@
-# 📊 Project: Complex API 2
+# Taxonomy Time Complex API
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+<img width="1467" alt="Screenshot 2023-10-23 at 12 13 41 AM" src="https://github.com/codedbycass/Taxonomy-Time/assets/122684139/7d208889-61fd-4680-a533-56e69299187a">
 
-### How to submit your code for review:
+## What
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+This project makes a request to 2 external servers using a biology database and the wikimedia API. It's purpose to learn more about an animal's taxonomic family!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How it works
+Tools: HTML, CSS, JavaScript
+
+I used 2 fetches and nested them; first the biology database API and the wikimedia API. I strategically chose wikimedia, because it has a page for almost everything, whereas my first option (a dictonary) lacked some capacity to define all scientific terms.
+
+## Lessons learned
+This project was a challenge in choosing the correct API that will be the most generative for users. Since the initial API was weak, as in, it was inconsistent and some animals lacked their key/values, it would sometimes return undefined. I chose to be strategic and chose the "family" key to pass it is a parameter in the Wikimedia API. 
