@@ -1,0 +1,61 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9e1e1;
+}
+
+h1 {
+    color: #e85a5a;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-style: italic;
+    color: #e85a5a;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: black;
+}
+
+input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff8b8b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff6b6b;
+}
+
+ul {
+    list-style-type: none;
+    padding-top: 1rem;
+}
+
+li {
+    margin-bottom: 10px;
+    color: black;
+}
