@@ -11,16 +11,35 @@
 body {
   font-family: 'Pattaya', cursive, Arial, sans-serif;
   background-color: #f0f0f0;
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
-  background-image: url(https://images.pexels.com/photos/326281/pexels-photo-326281.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-  background-size: cover fixed no-repeat;
+  height: 100%;
+}
+
+video {
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1; /* Set z-index to -1 to move the video behind other elements */
+}
+
+.video-wrapper {
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1; /* Set z-index to 1 to place the container and its contents on top of the video */
 }
 
 h1 {
   font-weight: bold;
+  font-size: 60px;
 }
 
 .container {
@@ -30,17 +49,20 @@ h1 {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  z-index: 2; /* Set z-index to 2 to place the container above the video */
 }
 
 ul {
   list-style: none;
   padding-left: 0;
 }
+
 #mealName {
   font-weight: bold;
   font-size: 40px;
   margin-top: 30px;
 }
+
 #mealImage {
   max-width: 100%;
   height: 500px;
@@ -50,7 +72,6 @@ ul {
 #similarButton {
   margin-top: 10px;
 }
-
 
 
 /******************************************

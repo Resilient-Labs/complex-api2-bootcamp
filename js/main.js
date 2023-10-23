@@ -14,10 +14,7 @@ let currentMeal = null  // Store the current meal data
 // Hide the meal image element by default
 mealImageElement.style.display = 'none' 
 
-// Event listener for the "Generate Random Meal" button
 generateMealButton.addEventListener('click', generateRandomMeal) 
-
-// Event listener for the "Find Similar Recipes" button
 similarButton.addEventListener('click', findSimilarRecipes) 
 
 // Function to generate a random meal

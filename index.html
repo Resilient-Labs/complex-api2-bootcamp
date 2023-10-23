@@ -7,20 +7,27 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Feeling Hungry?</h1>
-        <p>if you're out of ideas in the kitchen, try something new!</p>
-        <button id="generateMeal">Generate Random Meal</button>
-        <div class="meal-details">
-            <p id="mealName"></p>
-            <h2>Ingredients:</h2>
-            <ul id="ingredientsList"></ul>
-            <img src="" alt="Meal Image" id="mealImage">
-            <button id="similarButton">Find Similar Recipes</button>
-            <div id="similarDiv"></div>
+    <div class="video-wrapper">
+        <video playsinline autoplay muted loop poster="cake.jpg">
+          <source src="https://vod-progressive.akamaized.net/exp=1698059977~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4974%2F20%2F524874522%2F2460605516.mp4~hmac=e471cff230444cf76c33e1c69dbdc7d393b05bdf928f35489e6794be6d568288/vimeo-prod-skyfire-std-us/01/4974/20/524874522/2460605516.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+
+        <div class="container">
+            <h1>Feeling Hungry?</h1>
+            <p>if you're out of ideas in the kitchen, try something new!</p>
+            <button id="generateMeal">Generate Random Meal</button>
+            <div class="meal-details">
+                <p id="mealName"></p>
+                <h2>Ingredients:</h2>
+                <ul id="ingredientsList"></ul>
+                <img src="" alt="Meal Image" id="mealImage">
+                <button id="similarButton">Find Similar Recipes</button>
+                <div id="similarDiv"></div>
+            </div>
         </div>
     </div>
-
+    
 	<!-- external CSS link -->
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
