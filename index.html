@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<title>Famous Book & Author Info</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Author Wiki based on Book Title:</h1>
+			<label for="bookTitle">Enter a famous full book title:</label>
+			<input type="text" id="bookTitle" />
+			<button id="fetchButton">Get Full Author Wikipedia Article</button>
+			<div id="bookData">
+				<div class="infoItem">
+					<span class="label">Title:</span> <span id="bookTitleInfo"></span>
+				</div>
+				<div class="infoItem">
+					<span class="label">Author:</span> <span id="bookAuthorInfo"></span>
+				</div>
+				<div class="infoItem">
+					<span class="label">Published Year:</span>
+					<span id="bookYearInfo"></span>
+				</div>
+			</div>
+			<div id="authorData"></div>
+			<div id="errorMessage"></div>
+		</div>
+		<script src="js/script.js"></script>
+	</body>
+</html>
