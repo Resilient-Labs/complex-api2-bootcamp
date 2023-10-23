@@ -4,9 +4,10 @@
 
 # Random Meal Generator
 
-**Project Link:** 
+**Project Link:** https://alejandralondev.github.io/complex-api2-bootcamp/
 
-**Screenshot:** 
+**Screenshot:** ![meal-generator-sc](https://github.com/alejandralondev/complex-api2-bootcamp/assets/145242183/4f623db8-9233-41b6-8d83-d80fba8df128)
+
 
 ## How It's Made
 
