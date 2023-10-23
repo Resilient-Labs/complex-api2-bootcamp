@@ -15,7 +15,6 @@ function pronunciationPartOfSpeech() {
         .then(data => {
             let ul = document.querySelector('ul')
             let liPronunciation = document.createElement('li')
-            let liPartOfSpeech = document.createElement('li')
 
             // Remove previous results
             while (ul.firstChild) {
@@ -25,17 +24,14 @@ function pronunciationPartOfSpeech() {
             liPronunciation.innerText = `Pronunciation (发音): ${data.pronunciation.all}`
             ul.appendChild(liPronunciation)
 
-            liPartOfSpeech.innerText = `Part of Speech (词类): ${data.results[0].partOfSpeech}`
-            ul.appendChild(liPartOfSpeech)
-
-            translateToChinese(word, ul)
+            translateToChinese(word, data.results[0].partOfSpeech, ul)
         })
         .catch(err => {
             console.log(`error ${err}`)
         })
 }
 
-function translateToChinese(word, ul) {
+function translateToChinese(word, partOfSpeech, ul) {
     fetch(`https://translation.googleapis.com/language/translate/v2?key=AIzaSyC-rZEhYZJi-OTXWlw2f6H1n9o3FSqxHQo`, {
         method: 'POST',
         headers: {
@@ -46,10 +42,27 @@ function translateToChinese(word, ul) {
     .then(res => res.json())
     .then(data => {
         let translation = data.data.translations[0].translatedText
-        console.log(translation)
         let liTranslation = document.createElement('li')
         liTranslation.innerText = `Translation (翻译): ${translation}`
         ul.appendChild(liTranslation)
+
+        fetch(`https://translation.googleapis.com/language/translate/v2?key=AIzaSyC-rZEhYZJi-OTXWlw2f6H1n9o3FSqxHQo`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ q: partOfSpeech, target: 'zh' })
+        })
+        .then(res => res.json())
+        .then(data => {
+            let translationPOS = data.data.translations[0].translatedText
+            let liTranslationPOS = document.createElement('li')
+            liTranslationPOS.innerText = `Part of Speech: ${partOfSpeech} (${translationPOS})`
+            ul.appendChild(liTranslationPOS)
+        })
+        .catch(err => {
+            console.log(`error ${err}`)
+        })
     })
     .catch(err => {
         console.log(`error ${err}`)
