@@ -34,6 +34,12 @@ function getQR() {
       console.log()
       document.querySelector("#titleImg").innerText =  data.photos[0].alt
 
+      document.querySelector("#qr-header").innerText =
+        "Here is the QR Code for the photo!";
+
+
+      //
+
       let inputQR = data.photos[0].url
       const urlQR = `http://api.qrserver.com/v1/create-qr-code/?data=${inputQR}&size=200x200`
 
@@ -46,6 +52,8 @@ function getQR() {
           // check to see if the data url filtered into the api
           console.log(data.url)
           document.querySelector("#photoQR").src = data.url;
+
+          document.querySelector("#hidden").id = "";
 
         })
         .catch((err) => {

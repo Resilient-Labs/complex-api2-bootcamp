@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Royalacid.ttf);
+}
+
+body {
+  background: url(https://media.istockphoto.com/id/1315038327/photo/photo-studio-room-with-gray-concrete-background.webp?b=1&s=170667a&w=0&k=20&c=Ke0U7BWVoA35YOUEiyWH0VQWeINI1Fk6ujOFfEB0SoY=);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+p, h1 {
+  font-family: myFirstFont;
+}
+
+.container-center {
+  margin: 0 10% !important;
+}
+
+#hidden{
+  display: none  !important;
+}
+
