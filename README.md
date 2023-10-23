@@ -1,22 +1,13 @@
-# 📊 Project: Complex API 2
+# Simple Weather API
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+## What
 
-### How to submit your code for review:
+This project makes a request to an external server using a weather API. It's purpose is get the weather!
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How it works
+Tools: HTML, CSS, JavaScript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+I used the Fetch API and event listener to send requests to an external server. With this function, after the user clicks the button, a random quote will be generated in the DOM.
+
+## Lessons learned
+Using an API makes programming more efficient! I understand now when they say do not reinvent the wheel. With just 13 lines of code, a simple app can become sophisticated and clean.
