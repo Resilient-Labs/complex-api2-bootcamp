@@ -57,7 +57,7 @@ function translateToChinese(word, partOfSpeech, ul) {
         .then(data => {
             let translationPOS = data.data.translations[0].translatedText
             let liTranslationPOS = document.createElement('li')
-            liTranslationPOS.innerText = `Part of Speech: ${partOfSpeech} (${translationPOS})`
+            liTranslationPOS.innerText = `Part of Speech (词类): ${partOfSpeech} (${translationPOS})`
             ul.appendChild(liTranslationPOS)
         })
         .catch(err => {
