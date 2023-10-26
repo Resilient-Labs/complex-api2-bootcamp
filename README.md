@@ -6,7 +6,7 @@
 
 **Project Link:** https://alejandralondev.github.io/complex-api2-bootcamp/
 
-**Screenshot:** ![meal-generator-sc](https://github.com/alejandralondev/complex-api2-bootcamp/assets/145242183/4f623db8-9233-41b6-8d83-d80fba8df128)
+**Screenshot:** ![meal-generator-sc](img/meal-generator-sc2.png)
 
 
 ## How It's Made
