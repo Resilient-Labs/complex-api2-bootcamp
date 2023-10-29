@@ -2,21 +2,7 @@
 
 ### Goal: Use data returned from one api to make a request to another api and display the data returned
 
-### How to submit your code for review:
+App that uses NBA player data from BallIsLife API to access popular GIFs of the players.
+<img width="1420" alt="Screenshot 2023-10-22 at 8 27 49 PM" src="https://github.com/briannawillis195/complex-api2-bootcamp/assets/143905399/fe25334b-ff29-410a-8c04-816d0a02c616">
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+<b>Tech Used</b>: HTML, CSS, JavaScript, JSON

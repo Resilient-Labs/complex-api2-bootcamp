@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    font-family: Kanit;
+  }
+  
+html{
+  font-size: 62.5%;
+}
+
+body{background-image: url("https://i.postimg.cc/PJzM1Z0W/basketball-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+input{
+  border-radius: 30px;
+  width: 30%;
+  font-size: 2rem;
+}
+
+.results{
+border-radius: 30px;
+  width: 65%;
+  height: 500px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+img{
+    width: auto;
+    max-height: 250px     
+}
+
+
+button {
+    background-color:white;
+    border-radius: 100px;
+    font-size: 2rem;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+#playerName {
+  color: orange;
+}
+
