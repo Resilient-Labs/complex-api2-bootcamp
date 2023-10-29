@@ -1,22 +1,15 @@
-# 📊 Project: Complex API 2
+# 🌱 Project: Complex API 2
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+The plant name data returned from a plant API to was used to make a request to a picture API. Users can see the plants name, how much sunlight it needs, and a photo.
 
-### How to submit your code for review:
+Link to project: https://menahassan-plant-picture-api.netlify.app/
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+# How It's Made
+Tech used: HTML, CSS, JavaScript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+# Lessons Learned:
+Working on this project allowed me to practice using the fetch method to grab data from an API. The most painful part of this experience was finding APIs that were free and functional. Fortunately, there are some great ones out there if you do a bit of digging.
+
+Once you find a functional API, the rest of the work is fairly straightforward. You just need to map out the path to each data point you're looking to grab. This process looks slightly different for each API you're using since not all data is organized the same way but there's enough of an overlap so that you can generally get a sense of the pattern you need to follow.
+
+<img src="plant-picture-api-project-screenshot.JPG">

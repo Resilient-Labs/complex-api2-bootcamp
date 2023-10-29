@@ -1,0 +1,41 @@
+/* reusing styling from weather project  */
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+  text-align: center;
+  background: url(forrest-background.webp) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+#commonName, #sciName, #sunlightAmount {
+  font-size: 2rem;
+  text-align: center;
+}
+
+input {
+  display: block;
+  margin: 20px auto;
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+button {
+  margin: auto;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: #333;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  cursor: pointer;
+}
