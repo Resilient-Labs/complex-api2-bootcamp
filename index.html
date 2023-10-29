@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Meal Generator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="video-wrapper">
+        <video playsinline autoplay muted loop poster="cake.jpg">
+          <source src="img/pexels_videos_2620043 (2160p).mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+
+        <div class="container">
+            <h1>Feeling Hungry?</h1>
+            <p>if you're out of ideas in the kitchen, try something new!</p>
+            <button id="generateMeal">Generate Random Meal</button>
+            <div class="meal-details">
+                <p id="mealName"></p>
+                <h2>Ingredients:</h2>
+                <ul id="ingredientsList"></ul>
+                <img src="" alt="Meal Image" id="mealImage">
+                <button id="similarButton">Find Similar Recipes</button>
+                <div id="similarDiv"></div>
+            </div>
+        </div>
+    </div>
+    
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
