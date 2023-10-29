@@ -1,0 +1,89 @@
+/*
+===============================================
+Box Sizing
+===============================================
+*/
+* {
+    box-sizing: border-box;
+}
+
+/*
+===============================================
+Layout
+===============================================
+*/
+
+li {
+    border: 2px solid black;
+    list-style-type: none;
+}
+
+ul {
+    padding-inline-start: 0;
+    padding-top: 175px;
+}
+
+.translate {
+    display: block;
+    margin-top: 24px;
+    font-size: .9rem;
+}
+
+/*
+===============================================
+Styling
+===============================================
+*/
+
+html {
+    background: url("../CSS/bg.jpg");
+}
+
+li {
+    padding: 20px;
+    width: 98%;
+    margin: auto;
+    margin-bottom: 15px;
+    background: rgba(255, 255, 255, .95);
+}
+
+h1 {
+    height: 125px;
+    font-family: "bungee shade";
+    letter-spacing: 20px;
+    background: linear-gradient(to right, rgba(220, 170, 8, .01), rgb(236, 4, 4), rgb(222, 110, 5), rgb(220, 170, 8), rgb(220, 170, 8, .01));
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    margin: auto;
+    top: 0;
+    padding: 30px;
+}
+
+select {
+    text-align: center;
+}
+
+.anime {
+    margin-left: 200px;
+}
+select, .anime {
+    position: fixed;
+    top: 125px;
+}
+body {
+    margin: 0;
+}
+
+select,
+button {
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+@media (min-width: 878px) {
+    h1 {
+        font-size: 2.5rem;
+        padding: 35px;
+    }
+}
