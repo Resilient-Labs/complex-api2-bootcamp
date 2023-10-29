@@ -1,0 +1,40 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family: 'Schoolbell', cursive;
+  
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body{
+ 
+  background: url('../img/riddlebanner.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 15%;
+  text-align: center;
+}
+/* h3, h4, h5 {
+  width: 50%;
+} */
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
