@@ -2,21 +2,16 @@
 
 ### Goal: Use data returned from one api to make a request to another api and display the data returned
 
-### How to submit your code for review:
+This project is a quote api that presents a quote to the dom randomly on the button click & communicates with the second api to display a gif based on the feeling of the quote.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+### How it's Made
+Tech used: HTML, CSS, Javascript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+I took inspiration from the a japanese style casino & made it food themed.
+
+
+### Lessons Learned
+This was a interesting project to tackle as i had to target certain key words in the quote to find the best matching gif with accuracy.
+
+## Example
+![Image Alt Text](./img/qua.PNG)
