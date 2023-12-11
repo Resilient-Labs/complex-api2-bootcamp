@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="QR code Generator">
+    <meta name="keywords" content="one, two, three">
+
+    <title>Photo Generator</title>
+
+    <link rel="icon" type="image/png"
+        href="https://images.rawpixel.com/image_transparent_png_800/cHJpdmF0ZS9zdGF0aWMvaW1hZ2VzL3dlYnNpdGUvMjAyMy0wNC92OTMyLW5pbmctNjMucG5n.png?s=Hi_N2mspm54oYSS43aKSx6DGYluDKIpf087DVaqZOKE">
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+
+  <body>
+
+    <h1 class="text-center mt-4">Photo and QR Generator</h1>
+
+    <div class="container-center ">
+    
+      <div class="input-group mb-3">
+        <span class="input-group-text">Enter item here:</span>
+        <input type="text" class="form-control" id="userInput"" placeholder="Example: Cat or Dog" 
+          aria-label="Enter medical condition" aria-describedby="button-addon2">
+        <button class="btn btn-warning" type="button" id="button-addon2">Random photo & QR Code For it</button>
+      </div>
+    </div>
+
+    <!-- Will Print QR Code for Site -->
+    <div class="container text-center mt-4" id="hidden">
+      <div class="row align-items-start">
+        <div class="col">
+        </div>
+        <div class="col">
+          <p id="titleImg" class="text-center"></p>
+          <img id="newPhoto" src="" class="img-thumbnail rounded mx-auto d-block float-start">
+        </div>
+        <div class="col">
+          <p class="text-center mt-4" id="qr-header"></p>
+          <img id="photoQR" class="img-thumbnail rounded mx-auto d-block " src="">
+        </div>
+        <div class="col">
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  </body>
+
+</html>

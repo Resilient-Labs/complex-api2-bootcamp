@@ -1,22 +1,31 @@
-# 📊 Project: Complex API 2
+# 📊 Project: Image Generator with Dynamic QR Code
 
 ### Goal: Use data returned from one api to make a request to another api and display the data returned
 
-### How to submit your code for review:
+- Type in the item you want a photo for in search bar
+- Click button
+- The Photo Generator Api will display a photo related to item you inputed
+- As well as display a QR code for the photo to be able to open up on your phone
+- Enjoy the random photo and QR code!
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+## Technologies Used:
+
+1. **Frontend:**
+   - HTML5
+   - CSS3
+   - JavaScript (ES6+)
+   - Ejs (frontend library/framework)
+
+2. **Backend:**
+   - Node.js
+
+3. **API Integration:**
+   - Fetch API (for making HTTP requests)
+   - Third-party APIs:
+     - [Photo Generator API] - Used to fetch random photos based on user input
+     - [QR Code Generator API] - Used to generate QR codes for the displayed photos
+
+
+
